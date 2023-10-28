@@ -1,0 +1,69 @@
+/* Global styles */
+
+body{
+    background-color: black;
+    color: #FFF;
+    font-family: sans-serif;
+}
+.logo{
+    width: 170px;
+}
+.login-button{
+    background-color: red;
+    color:#FFF;
+    border-color: red;
+    font-size:16px;
+    border-radius: 5px;
+    padding: 7px  17px;
+}
+
+.header{
+    padding:40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro{
+    background-image: url(./assetss/background\ OK.jpg);
+    background-size:cover;
+    text-align:center;
+    border-bottom: 8px solid #222;
+}
+.intro-title{
+    font-size: 64px;
+    max-width: 700px;
+    margin:30px auto;
+}
+.intro-subtitle{
+    font-size: 26px;
+    max-width: 700;
+    margin:30px auto;
+}
+
+.intro-text{
+    font-size: 17px;
+    max-width: 800;
+    margin:30px auto;
+}
+.sucribe-form{
+    max-width:600px;
+    display:flex;
+    justify-content: center;
+    margin:30px auto;
+}
+.suscribe-input{
+    background-color: white;
+    color:grey;
+    border:none;
+    font-size:16px;
+    padding: 20px 5px;
+    width:500px;
+}
+.suscribe-button{
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 7px 17px;
+}

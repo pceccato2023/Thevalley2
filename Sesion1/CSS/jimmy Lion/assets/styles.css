@@ -1,0 +1,186 @@
+body{
+    Font-family: sans-serif;
+    color: #373737;
+    margin: 0;
+    letter-spacing: 2px;;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display:block;
+}
+
+.menu-list{
+    margin-right: 30px;
+}
+.list-item a{
+    text-decoration: none;
+    font-size:18px;
+    color: #373737;
+    margin-right: 30px;
+    }
+
+.logo{
+    width:150px;
+}
+
+.section-imgs{
+    display: block;
+}
+
+.div-imgprincipal{
+    width: 10px;
+    height: 5px;
+}
+
+.img-prin{
+   width:100%;
+}
+
+
+
+
+.section-caracteristicas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.caracteristicas{
+    width: 250px;
+    display:flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.p-article{
+    text-align: justify;
+ }
+
+.collections{
+    display:flex;
+    justify-content: space-around;
+    margin:20px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.colletcion-img{
+    width: 550px;
+}
+
+.collection{
+    position: relative;
+    margin:5px;
+}
+
+.collection-description{
+    position: absolute;
+    display: block;
+    top:100px;
+    left:30px;
+}
+
+.collection-description-buy{
+font-size:30px;
+font-weight: lighter;
+margin:10px;
+}
+
+.collection-description-text{
+    font-size:40px;
+    font-weight: bolder;
+    margin:0px;
+}
+
+.section-packs{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-packs{
+    width: 100%;
+}
+
+.packs-promos{
+    position: relative;
+    text-align: center;
+}
+
+.inside-text{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-20%, -20%);
+    text-align: left;
+    margin:0px;
+}
+
+.btn-packs{
+    background-color: #373737;
+    color:white ;
+    position:absolute;
+    top:90%;
+    left:0%;
+    padding: 15px;
+    font-size:15px;
+    font-weight: bolder;
+    margin-top: 40px;
+
+}
+
+.inside-text-important{
+    font-size:45px;
+    margin:0px;
+    font-weight: bolder;    
+}
+
+.div-news{
+    display:block;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.new-collection-imgs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.new-collection-imgs-2{
+    display:flex;
+    flex-wrap: wrap;
+}
+.new-collection-imgs-2-img{
+    width: 320px;
+    height: 320px;
+}
+
+.form-input{
+    background-color: white;
+    color:#373737;
+    width: 400px;
+    border: 1px solid grey;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    margin-top:50px;
+    margin-left:10px;
+    display:flex;
+    justify-content: space-between;
+    font-size:15px;
+    text-decoration: none;
+}

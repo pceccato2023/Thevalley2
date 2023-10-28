@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio formulario</title>
+</head>
+<body>
+    <h1>¿Cúales son tus gustos?</h1>
+    <hr>
+    <form action="/formulario">
+        <label>
+            <p> 1) Nombre</p>
+            <input type="text" name="nombre"/>
+        </label>
+        <label>
+            <p>2) Apellidos </p>
+            <input type="text" name="apellidos" />
+        </label>
+        <label>
+            <p>3) Edad</p>
+            <input type="number" name="edad" />
+        </label>
+        <label>
+            <p>4) ¿Cómo te gusta el café?</p>
+            <input type="radio" name="café" value="solo"/>Solo
+            <input type="radio"name="café" value="leche"/>Con leche
+            <input type="radio"name="café" value="no"/>No me gusta el café
+        </label>
+        <label>
+            <p>5) ¿Donde ves las series? </p>
+            <input type="checkbox" name="series" value="HBO"/>HBO
+            <input type="checkbox"name="series" value="netflix"/>Netflix
+            <input type="checkbox"name="series" value="Amazon"/>Amazon
+        </label>
+        <label>
+            <p>6) Cuéntanos más de tí</p>
+            <textarea type="text" name="aficiones" cols="40" rows="5" placeholder="Escribe lo que más te apasiona... "></textarea>
+        </label>
+        <br>
+        <button type="submit">Enviar información</button>
+        <button type="reset">Limpiar formulario </button>
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

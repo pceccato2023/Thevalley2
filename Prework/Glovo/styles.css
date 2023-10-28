@@ -1,0 +1,211 @@
+body {
+    background-color: #fff;
+    color:#000;
+    margin:0;
+    font-family: sans-serif;
+
+}
+
+.header{
+    background-color: #fbc244;
+    padding: 25px;
+}
+
+.logo{
+    background-color: #fbc244;
+    width:100px;
+}
+
+.footer{
+    background-color: #1d1d1c;
+}
+
+.logo-footer{
+    width: 50px;
+}
+
+.footer-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:40px;
+}
+
+.footer-links{
+    display:flex;
+    margin-top: 20px;
+}
+
+.footer-link-title{
+    color:#fff;
+    font-weight:bolder;
+    font-size:20px;
+}
+
+.footer-link{
+    color:#a09fa0;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:100;
+    display:block;
+    margin-bottom: 15px;
+}
+
+.footer-link-colum{
+    margin-right: 100px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.main{
+    width:750px;
+    margin:20px 10px 20px 20px;
+    padding: 40px;
+}
+
+
+
+.custom-border{
+   box-shadow:0 1px 5px rgb(0 0 0 / 15%);
+   border-radius: 10px;
+}
+
+.restaurant-tittle{
+    font-size:35px;
+    margin:0;
+}
+.restaurant-info{
+    font-size: 14px;
+    color: #A09FA0;
+    border-bottom:2px solid #C8C8C8;
+    padding-bottom: 20px;
+    }
+
+.restaurant-items{
+    margin-top:50px;
+    font-size: 22px;
+}
+
+.item{
+    border-radius: 10px;
+    border:1px solid #c8c8c8;
+    padding: 15px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.item-description{
+    display:flex;
+    align-items:flex-start;
+    justify-content: left;
+}
+
+.item-imagen{
+    max-width: 150px;
+    justify-content: left;
+}
+
+.item-name{
+    font-size:16px;
+}
+
+.item-order{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.item-add{
+    border-radius:200px;
+    border:none;
+    background-color: #E8F8F5;
+    color:#35a183;
+    font-size:25px;
+    min-width:30px;
+}
+
+.listItems{
+    margin:10px;
+}
+
+.cart-title{
+    font-weight:bolder;
+    font-size:30px;
+    text-align:center;
+}
+
+.cart{
+    width:350px;
+    margin:20px 20px 10px 20px;
+}
+
+.no-products-img{
+    width:100px;
+}
+
+.no-products-text{
+    text-align: center;
+    color: #A09FA0;
+    font-size:18px;
+}
+.cart-no-products{
+    padding:30px;
+    display:none;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.cart-item{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cart-item-quantity{
+    font-weight:bold;
+    margin:5px;
+}
+.cart-item-description{
+    margin:5px;
+}
+
+.cart-item-price{
+    margin:5px;
+}
+
+.cart-items{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    }
+
+.cart-item-btn{
+    color:#951d14;
+    background-color: #EAABA7;
+    border-radius: 50px;
+    border:none;
+    font-size:20px;
+    text-align:center;
+    font-weight: bold;
+    margin: 5px;
+    width: 30px;
+    height:30px;
+}
+.cart-items{
+    padding: 0px 30px 30px 30px;
+}
+
+.cart-total{
+    padding:15px;
+    background-color: #fbc244;
+    color:#fff;
+    font-size: 20px;
+    text-align:center;
+    font-weight: bold;
+}

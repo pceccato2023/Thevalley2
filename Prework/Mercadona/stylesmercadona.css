@@ -1,0 +1,251 @@
+body {
+    background-color: #fff;
+    color:#000;
+    margin:0;
+    font-family: sans-serif;
+
+}
+
+.header{
+    background-color: #5BB289;
+    padding: 10px;
+}
+
+.logo{
+    background-color: #5BB289;
+    width:150px;
+}
+
+.footer{
+    background-color: #F7F8F6;
+}
+
+.logo-footer{
+    width: 100px;
+    text-align: left;
+    margin-top: 20px;
+    align-items: left;
+}
+
+.footer-container{
+    max-width: 1000px;
+    margin:auto;
+    padding:40px;
+    justify-content:center;
+}
+
+.footer-links{
+    display:flex;
+    margin-top: 20px;
+    padding: 0px,0px,0px,20px;
+}
+
+.footer-link-title{
+    color:#fff;
+    font-weight:bolder;
+    font-size:20px;
+}
+
+.footer-link{
+    color:#a09fa0;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:100;
+    display:block;
+    margin-bottom: 15px;
+}
+
+.footer-link-colum{
+    margin-right: 100px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.main{
+    width:750px;
+    margin:20px 10px 20px 20px;
+    padding: 10px;
+}
+
+.custom-border{
+   box-shadow:0 1px 5px rgb(0 0 0 / 15%);
+   border-radius: 10px;
+}
+
+.restaurant-tittle{
+    font-size:35px;
+    margin:0;
+}
+.restaurant-info{
+    font-size: 14px;
+    color: #A09FA0;
+    border-bottom:2px solid #C8C8C8;
+    padding-bottom: 20px;
+    }
+
+.restaurant-items{
+    margin-top:50px;
+    font-size: 22px;
+}
+
+.item{
+    border-radius: 10px;
+    border:1px solid #C8C8C8;
+    padding: 15px;
+    padding-bottom: 0px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.item-description{
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.item-imagen{
+    max-width: 100px;
+    justify-content: center;
+    display:flexbox;
+}
+
+.item-name{
+    font-size:15px;
+    justify-content: left;
+    margin-bottom:10px;
+}
+.item-price{
+    width: 1px;
+    margin-top:0px;
+    margin-bottom:80px;
+}
+.item-order{
+    display:flex;
+    align-items: center;
+}
+
+.item-add{
+    border-radius:200px;
+    margin:0px;
+    border:none;
+    background-color: #F9B42A;
+    width: 800px;
+    color:#714000;
+    font-size:15px;
+    min-width:15px;
+    text-align:center;
+    font-weight:bold;
+    justify-content:center;
+    padding:10px;
+}
+
+.listItems{
+    margin:8px;
+    font-weight:bold;
+}
+
+.cart-title{
+    font-weight:bolder;
+    font-size:30px;
+    text-align:center;
+}
+
+.cart{
+    width:350px;
+    margin:20px 20px 10px 20px;
+}
+
+.no-products-img{
+    width:100px;
+}
+
+.no-products-text{
+    text-align: center;
+    color: #A09FA0;
+    font-size:18px;
+}
+.cart-no-products{
+    padding:30px;
+    display:none;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.cart-item{
+    display: block;
+    justify-content: left;
+    border-bottom:2px solid #A09FA0 ;
+ 
+}
+.cart-item-quantity{
+    font-weight:bolder;
+    font-size:15px;
+    padding:0px;
+    margin:1px;
+}
+.cart-item-description{
+    font-size:12px;
+    font-weight: bold;
+    padding:0px;
+    margin:1px;
+}
+
+.cart-item-price{
+    font-weight:bold;
+    font-size:15px;
+    padding:0px;
+    margin:px;
+}
+
+.cart-img-element{
+    max-width: 50px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+}
+
+.img-product{  
+    display:inline-block;
+    width: 50px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+
+}
+
+.cart-items{
+    display: block;
+    padding: 0px 30px 30px 30px;
+
+    
+}
+
+.cart-item-btn{
+    color: #951d14;
+    background-color: #EAABA7;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 150px;
+}
+
+.cart-total{
+    padding:10px;
+    background-color: #fbc244;
+    color:#fff;
+    font-size: 20px;
+    text-align:center;
+    font-weight: bold;
+}
+
+
