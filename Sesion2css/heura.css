@@ -1,6 +1,12 @@
 
+@font-face{
+    font-family: "heura";
+    src: url(Assets/Heura.woff);
+}
+
 body{
-    font-family:sans-serif;
+    font-family:"heura";
+    font-size:25px;
 }
 
 header{
@@ -8,17 +14,18 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .img-header{
     width: 8%;
-    padding: 20px;
-    margin-left: 50px;
+    margin-left: 2%;
 }
 
 .header-list{
     list-style: none;
     display:flex;
+    text-align: center;
 }
 
 .header-list-item{
