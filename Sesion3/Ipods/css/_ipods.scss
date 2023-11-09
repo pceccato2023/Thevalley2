@@ -1,0 +1,56 @@
+.card{
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+    margin: 20px;
+    width: 500px;
+    background-color: black;
+    border-radius: 15px;
+
+
+    &__header{
+        display:flex;
+        justify-content: center; 
+    }
+
+    &__title{
+        color:white;
+        font-size:25px;
+    }
+    &__main{
+       display:flex;
+       justify-content: center; 
+    }
+
+    &__img{
+        width: 50%;
+    }
+
+    &__subtitle{
+        color:white;
+        margin:20px;
+    }
+
+    &__description{
+        display: flex;
+        justify-content: center;
+        color:lightgray;
+        margin:20px;
+    }
+
+    &__button{
+        background-color: black;
+        color:white;
+        padding: 20px;
+        border: 2px solid white;
+        border-radius: 2px;
+        
+    }
+    &__footer{
+        display:flex;
+        justify-content: center;
+    }
+
+}
+
+.card--reverse{
+    background-color: white;
+}

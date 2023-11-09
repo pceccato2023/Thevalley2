@@ -1,0 +1,10 @@
+@import "ipods";
+@import "mixins";
+@import "variables";
+
+body{
+    font-family: monospace;
+    min-width: 100vh;
+    @include flex_card;
+
+}
