@@ -1,0 +1,18 @@
+@import "base/resets";
+@import "base/_typo";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./layouts/footers";
+@import "./layouts/main";
+@import "./layouts/headers";
+@import "./layouts/section";
+@import "./components/card";
+@import "./components/details";
+
+
+body{
+    font-family: "Poppins";
+    height: 100vh;
+    max-width: 100%;
+}
+

@@ -1,0 +1,221 @@
+.card{
+    margin: 20px;
+    border-radius: 20px;
+    border: 0px solid $eighth-colour;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 100%; 
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    @include adapTo ("tablet"){
+        width: 45%;
+    }
+
+    @include adapTo ("desktop"){
+        width: 30%;
+    }
+
+    &--locations{
+        margin: 20px;
+        border-radius: 20px;
+        border: 0px solid $eighth-colour;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        min-width: 30px;
+        
+        max-width: 100%; 
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 25vh;
+
+        @include adapTo ("tablet"){
+            width: 45%;
+        }
+    
+        @include adapTo ("desktop"){
+            width: 30%;
+        }
+    }
+
+
+    &--episodes{
+        margin: 5px;
+        border-radius: 20px;
+        border: 0px solid $eighth-colour;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        max-width: 320px; 
+        text-align: center;
+        
+
+        @include adapTo ("not-mobile"){
+            width: 32%;
+        
+        }
+    }
+
+    &__name{
+        display:flex;
+        justify-content: space-between;
+        margin-left:10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        color: $eighth-colour;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        &--episodes{
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 10px;
+            color:$eighth-colour;
+            display: flex;
+            justify-content: center;
+            background-color: $background-colour;
+            border-radius: 20px;
+        }
+
+
+        &--locations{
+            border-radius: 20px;
+            background: #F3F3F3;
+            color: $eighth-colour;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            width: 50%;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
+
+    &__title{
+        color: $eighth-colour;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top:2px;
+        margin-bottom: 2px;
+    }
+
+    &__status{
+        background: $live-colour;
+        color: $fifth-colour;
+        padding: 5px;
+        font-style: normal;
+        width: 25%;
+        text-align: center;
+    }
+
+    &__details{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 30px;
+
+        &--locations{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;  
+            height: 20vh;
+        }
+    }
+    &__img{
+        min-width: 120px;
+        height: 30vh;
+        max-height: 200px;
+        margin-left:10px;
+    }
+
+    &__info-container{
+        padding-left: 10px;
+        width: 50%;
+        height: 30vh;
+
+        &--locations{
+            height: 5vh;
+        }
+    }
+    &__info-title{
+        font-size:10px;
+        font-weight: 700;
+        color:$cardinfotitle-colour;
+        text-align: left;
+    }
+
+    &__info{
+        color:$fourth-colour;
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 28px;
+        text-align: left;
+        height: 10px;
+
+        &--episodes{
+            text-align: center;
+        }
+
+        
+    }
+
+    &__line{
+        width: 2px;
+        height: 30px;
+        background: #A6A6A6;
+    }
+
+    &__link{
+        display:block;
+        text-decoration: none;
+        margin:10px;
+        max-width: 100%;
+        padding: 5px;
+        padding-bottom: 10px;
+        color: $eighth-colour;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: $third-colour;
+        border-radius: 50px;
+        margin-top: 20px;
+
+        &--episodes{
+            display:block;
+            text-decoration: none;
+            margin:10px;
+            max-width: 100%;
+            padding: 5px;
+            padding-bottom: 10px;
+            color: $eighth-colour;
+            font-size: 12px;
+            font-weight: bolder;
+            background-color: $third-colour;
+            border-radius: 50px;
+        }
+
+        &--locations{
+            display:block;
+            text-decoration: none;
+            margin:10px;
+            width: 90%;
+            max-width: 100%;
+            padding: 5px;
+            color: $eighth-colour;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: $third-colour;
+            border-radius: 50px;
+          
+        }
+    }
+}

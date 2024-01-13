@@ -1,0 +1,71 @@
+.main{ 
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $white-colour;
+    padding-bottom: 20px; 
+      
+ 
+    &__container{   
+        background-image: url("../../../Assets/images/main.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+        width: 100%;
+        position: relative;
+    }
+
+    &__title{
+        color:$fifth-colour;
+        text-align: center;
+        margin-top: 60px;
+        font-size:60px
+        }
+
+    &__subtitle{
+      color:$fifth-colour;      
+      text-align: center;
+      font-size:50px;
+    }
+    &__text{
+        color:$fourth-colour;
+        text-align: center;
+        text-justify: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 50%;
+    }
+    
+    &__line{
+        border-top: 2px solid $second-colour;
+        width: 200px;
+        text-decoration: none;
+        padding: 20px;
+    }
+    &__list{
+        text-align: center;  
+        padding:60px;  
+        padding-top:0px;
+         
+        @include adapTo ("desktop"){
+            background-color:$sixth-colour;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+
+        }
+    }
+    &__item{
+        margin: 40px;
+        background-color: #EEE4F1;
+        color:$second-colour;
+        font-weight: bolder;
+        padding: 50px;
+        border-radius: 100px;
+        font-size: 24px;
+        font-style: normal;
+        cursor: pointer;
+    }
+}

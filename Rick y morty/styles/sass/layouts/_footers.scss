@@ -1,0 +1,54 @@
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $background-colour;
+    border-bottom: 25px solid $second-colour;
+    color:$first-colour;
+    padding-bottom: 20px;
+    width: 100%;
+
+    @include adapTo ("not-mobile"){
+       flex-direction: row;
+       justify-content: space-around;
+       height: 30vh;
+
+    }
+    &__container{
+        text-align: center;
+    }
+    &__title{
+        font-size: 24px;
+        text-decoration: underline;
+
+    }
+    &__subtitle{
+        font-size:18px;
+        font-weight: bolder;
+    }
+    &__list{
+        gap: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        @include adapTo ("not-mobile"){
+            text-align: center;
+            display:block;
+
+        }
+
+        &__item{
+            font-size: 18px;
+        @include adapTo ("not-mobile"){
+            display: inline;
+            text-align: center;
+            margin:10px;
+        }
+     
+    }
+    }
+}
+
