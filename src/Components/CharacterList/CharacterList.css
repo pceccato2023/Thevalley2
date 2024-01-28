@@ -1,0 +1,12 @@
+.character_list{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+    gap:20px;
+}
+
+.title{
+    color:white
+}
+

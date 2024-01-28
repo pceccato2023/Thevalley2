@@ -1,0 +1,25 @@
+.button__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top:20px;
+    gap:20px;
+}
+
+.button{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+    font-weight: bolder;
+    height: 30px;
+}
+button:hover{
+    background-color: bisque;
+}
+
+.text{
+    color:white;
+    font-weight: bolder;
+}
